@@ -16,6 +16,11 @@ public class AdActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ad);
+
+
+
+
+
           iv_count=      findViewById(R.id.iv_count);
             new Thread(new Runnable() {
                 @Override
